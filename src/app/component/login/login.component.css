@@ -1,0 +1,9 @@
+form{
+    margin: auto;
+    width: 50%;
+    border:3px solid black;
+    padding: 10px;
+    margin-top: 4cm;
+    /* background-color:; */
+    background-image: linear-gradient(to bottom right,rgb(231, 114, 231), rgb(135, 135, 231));
+}

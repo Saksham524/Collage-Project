@@ -1,0 +1,61 @@
+<form [formGroup]="RagistrationForm" (ngSubmit)="onSubmit()" class='users'>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Enter your full name</label>
+    <input type="text" class="form-control" #name placeholder="abcd modi" formControlName="name">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Email</label>
+    <input type="email" class="form-control" #email placeholder="abcd@gmail.com" formControlName="email">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Your permanent mobile number</label>
+    <input type="number" class="form-control" #mobile placeholder="mobile number" formControlName="mobNum">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Your parmanent address </label>
+    <input type="text" class="form-control" #address placeholder="Another input" formControlName="address">
+  </div>
+
+  <label for="formGroupExampleInput2">Enter your date of birth</label>
+  <div class="input-group date">
+    <input type="date" class="form-control" value="12-02-2012" formControlName="dob">
+    <div class="input-group-addon">
+      <!-- {propertyName} = objectToDestruct; -->
+      <span class="glyphicon glyphicon-th"></span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Enter your aadhar number</label>
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="aadhar number" formControlName="aadhar">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Enter your pan number</label>
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="pan number" formControlName="pan">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!-- This is for account purpose then this is going to do in the same purpose ok by Good By By -->
+
+<form class="Accounts">
+  <h3>Enter your account details </h3>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Enter your Account number</label>
+    <input type="number" class="form-control" #name placeholder="bank account number">
+  </div>
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">What is your account balance</label>
+    <input type="number" class="form-control" #name placeholder="Enter your account balance">
+  </div>
+
+  <!-- <div class="form-group">
+    <label for="formGroupExampleInput">Enter your full name</label>
+    <input type="text" class="form-control" #name placeholder="abcd modi">
+  </div> -->
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
